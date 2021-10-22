@@ -1,0 +1,30 @@
+.content {
+  padding-top: 57px;
+  padding-bottom: 71px;
+}
+
+.content__title{
+  margin-bottom: 57px;
+}
+.content__title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content__line {
+  width: 170px;
+  border-top: 1px solid #EC7979;
+  text-align: center;
+  margin: 0 auto 39px;
+
+}
+.content__description p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #86878B;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
