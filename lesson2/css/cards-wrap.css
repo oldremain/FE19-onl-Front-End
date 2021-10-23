@@ -1,34 +1,35 @@
-.cards-wrap {
-  padding-top: 39px; 
-}
+/* .cards-wrap {
+  padding-top: 39px;
+} */
 .card-content {
   max-width: 370px;
-  padding-top: 39px;
+  /* padding-top: 39px; */
   padding-bottom: 8px;
 }
 
-.card-img {
-  width: 170px;
-  margin: auto;
-  margin-bottom: 77px;
+.card__img {
+  /*width: 170px;
+  margin: auto;*/
+  margin-bottom: 38px;
 }
-.card-img img{
+.card__img img {
   display: block;
+  margin: auto; /*это добавил поле для центрирования картинки*/
   text-align: center;
 }
 
-.card-title {
+.card__title {
   margin: auto;
   margin-bottom: 46px;
 }
-.card-title h3 {
+.card__title h3 {
   font-size: 24px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-.card-description p {
+.card__description p {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
