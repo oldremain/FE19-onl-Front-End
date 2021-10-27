@@ -1,0 +1,30 @@
+@import url('../css/awesome.css/title.css');
+@import url('../css/awesome.css/card.css');
+@import url('../css/pricing.css/title.css');
+@import url('../css/pricing.css/card.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins&family=Raleway:wght@400;500;700&display=swap');
+
+html {
+  font-family: 'Raleway', 'Open Sans', 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.awesome {
+  padding: 54px 0 58px;
+}
+.pricing {
+  padding: 80px 0 59px;
+  background-color: #F5F5F5;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,50 @@
+.pracing-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pricing-card {
+  width: 340px;
+}
+.list {
+
+}
+.list__tariff {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 9px 0 14px;
+  margin-bottom: 1px;
+}
+.list__price {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 26px 0 33px;
+  margin-bottom: 1px;
+}
+.list__free {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 17px 0 14px;
+}
+.list__item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  background-color: white;
+  color: #86878B;
+  padding: 10px 0 11px;
+  margin: 4px 0;
+}

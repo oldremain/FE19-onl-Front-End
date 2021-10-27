@@ -1,0 +1,39 @@
+.awesome-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.awesome-card{
+  width: 350px;
+}
+.awesome-card__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awesome-card__img {
+  width: 92px;
+  height: 92px;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 73px;
+}
+.awesome-card__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.awesome-card__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}

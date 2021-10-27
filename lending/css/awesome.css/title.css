@@ -1,0 +1,23 @@
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+.line {
+  width: 64px;
+  border: 1px solid #ec7979;
+  margin: 0 auto 34px;
+}
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 68px;
+}
