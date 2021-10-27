@@ -9,7 +9,7 @@
 .list {
 
 }
-.list__tariff {
+.list__item-tariff {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -19,7 +19,7 @@
   padding: 9px 0 14px;
   margin-bottom: 1px;
 }
-.list__price {
+.list__item-price {
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-weight: 700;
@@ -29,7 +29,7 @@
   padding: 26px 0 33px;
   margin-bottom: 1px;
 }
-.list__free {
+.list__item-free {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
