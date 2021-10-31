@@ -7,11 +7,7 @@
   text-transform: uppercase;
   margin-bottom: 34px;
 }
-.line {
-  width: 64px;
-  border: 1px solid #ec7979;
-  margin: 0 auto 34px;
-}
+
 .description {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
