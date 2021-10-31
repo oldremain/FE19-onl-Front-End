@@ -1,4 +1,4 @@
-.axure__button {
+/* .axure__button {
   display: block;
   text-align: center;
   border: 1px solid #C4C4C4;
@@ -8,8 +8,24 @@
   margin: auto;
   position: relative;
   z-index: 1;
+  transition: 0.5s;
+} */
+.axure__button {
+  width: 135px;
+  text-align: center;
+  border: 1px solid #C4C4C4;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 11px 26px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
 }
-.button-link {
+.axure__button:hover {
+  transform: scale(1.2);
+}
+.button-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;

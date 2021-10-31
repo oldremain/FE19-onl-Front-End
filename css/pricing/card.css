@@ -4,15 +4,11 @@
   justify-content: space-between;
   margin: 0 -15px;
 }
-/* .pricing-card {
-  width: 340px;
-  margin: 0 15px;
-} */
-.pricing-card-list {
+.pricing-card {
   width: 340px;
   margin: 0 15px;
 }
-.list__item-tariff {
+.pricing-card__item-tariff {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -22,7 +18,7 @@
   padding: 9px 0 14px;
   margin-bottom: 1px;
 }
-.list__item-price {
+.pricing-card__item-price {
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-weight: 700;
@@ -32,7 +28,7 @@
   padding: 26px 0 33px;
   margin-bottom: 1px;
 }
-.list__item-free {
+.pricing-card__item-free {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -41,7 +37,7 @@
   color: rgba(255, 255, 255, 0.5);
   padding: 17px 0 14px;
 }
-.list__item {
+.pricing-card__item {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
