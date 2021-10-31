@@ -24,9 +24,9 @@
 .customer-card__comment::after {
     content: '';
     display: block;
-    border-top: 15px solid #E2E2E2;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     position:absolute;
     left: 41px;
 }
@@ -45,6 +45,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%; 
+    transform: scaleX(-1);
 }
 
 .customer-person-position {
