@@ -2,9 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .awesome-card{
   width: 350px;
+  margin: 0 15px;
 }
 .awesome-card__img {
   display: flex;

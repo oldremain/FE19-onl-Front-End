@@ -1,0 +1,20 @@
+.axure__button {
+  display: block;
+  text-align: center;
+  border: 1px solid #C4C4C4;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 11px 26px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+.button-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}

@@ -1,8 +1,8 @@
 .title::after {
     content: '';
     width: 64px;
-    border-top: 1px solid #E72424;
+    border-top: 2px solid #E72424;
+    opacity: 0.6;
     display: block;
-    /* text-align: center; */
     margin: 34px auto 34px;
 }

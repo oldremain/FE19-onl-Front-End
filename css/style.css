@@ -4,7 +4,9 @@
 @import url('../css/pricing/card.css');
 @import url('../css/customer/title.css');
 @import url('../css/customer/card.css');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins&family=Raleway:wght@400;500;700&display=swap');
+@import url('../css/axure/title.css');
+@import url('../css/axure/button.css');
+@import url('../css/fonts.css');
 
 html {
   font-family: 'Raleway', 'Open Sans', 'Poppins', sans-serif;
@@ -27,6 +29,9 @@ html {
 }
 .customer {
   padding: 80px 0 120px;
+}
+.axure {
+  padding: 58px 0 32px;
 }
 .container {
   max-width: 1170px;

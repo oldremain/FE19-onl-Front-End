@@ -2,12 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 -15px;
 }
-.pricing-card {
+/* .pricing-card {
   width: 340px;
-}
-.list {
-
+  margin: 0 15px;
+} */
+.pricing-card-list {
+  width: 340px;
+  margin: 0 15px;
 }
 .list__item-tariff {
   font-family: 'Open Sans', sans-serif;
