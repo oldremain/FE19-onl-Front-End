@@ -36,10 +36,7 @@
 .social-list__item:last-child {
   margin-right: 0px;
 }
-.fab a:link {
-  color: #86878B;
-}
-.fas a:link {
+.social-list__item a:link {
   color: #86878B;
 }
 .social-list__item a:visited {
