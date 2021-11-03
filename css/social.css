@@ -37,21 +37,21 @@
   margin-right: 0px;
 }
 .fab:link {
-  color: inherit;
+  color: #495057;
 }
 .fas:link {
-  color: inherit;
+  color: #495057;
 }
 .social-list__item a:visited {
   color: #86878B;
 }
 .fa-facebook-f:hover {
-  color: rgb(22, 137, 236);
-  /* background: linear-gradient(27deg, rgba(49,129,238,1) 0%, rgba(0,99,255,1) 100%);
+  /* /* color: rgb(22, 137, 236); */
+  background: linear-gradient(27deg, rgba(49,129,238,1) 0%, rgba(0,99,255,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; */
-}
+  color: transparent;
+} 
 .fa-twitter:hover {
   /* color: rgb(35, 189, 236); */
   background: linear-gradient(27deg, rgba(49,238,233,1) 0%, rgba(0,176,255,1) 100%);
