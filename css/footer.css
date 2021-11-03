@@ -12,7 +12,7 @@
 .social-list-footer__item:last-child {
   margin-right: 0px;
 }
-.social-list-footer__item a:link {
+.social-list-footer__item a {
   color: #ccc;
 }
 .social-list-footer__item a:visited {
