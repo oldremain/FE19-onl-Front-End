@@ -6,10 +6,14 @@
 @import url('../css/customer/card.css');
 @import url('../css/axure/title.css');
 @import url('../css/axure/button.css');
+@import url('../css/header.css');
+@import url('../css/social.css');
+@import url('../css/footer.css');
 @import url('../css/fonts.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 html {
-  font-family: 'Raleway', 'Open Sans', 'Poppins', sans-serif;
+  font-family: 'Raleway', 'Open Sans', 'Poppins', 'Roboto', sans-serif;
 }
 
 * {
@@ -19,7 +23,14 @@ html {
   box-sizing: border-box;
   text-decoration: none;
 }
-
+.header {
+  padding: 20px 0;
+  background-color: #000000;
+}
+.social-media {
+  padding: 14px 0 17px;
+  background-color: #F8EFEF;
+}
 .awesome {
   padding: 54px 0 58px;
 }
@@ -32,6 +43,10 @@ html {
 }
 .axure {
   padding: 58px 0 32px;
+}
+.footer {
+  padding: 30px 0 15px;
+  background-color: #000;
 }
 .container {
   max-width: 1170px;

@@ -1,0 +1,29 @@
+.social-list-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.social-list-footer__item {
+  font-size: 23px;
+  color: #ccc;
+  margin-right: 30px;
+}
+.social-list-footer__item:last-child {
+  margin-right: 0px;
+}
+.social-list-footer__item a:visited {
+  color: #ccc;
+}
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: capitalize;
+  text-align: center;
+}
+.copyright span {
+  margin-left: 5px;
+}

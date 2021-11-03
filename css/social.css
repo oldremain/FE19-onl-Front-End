@@ -1,0 +1,41 @@
+.social-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title-wrap {
+  width: 365px;
+  margin-right: 15px;
+}
+.social-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #333333;
+  text-transform: capitalize;
+  margin-bottom: 14px;
+}
+.social-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #86878B;
+}
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-list__item {
+  font-size: 42px;
+  margin-right: 70px;
+}
+.social-list__item:last-child {
+  margin-right: 0px;
+}
+.social-list__item a:visited {
+  color: #86878B;
+}
