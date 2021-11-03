@@ -24,6 +24,9 @@
   color: #ec7979;
   margin-right: 20px;
 }
+.logo-name a:link {
+  color: #fff;
+}
 .logo-name a:visited {
   color: #fff;
 }
@@ -48,6 +51,9 @@
 }
 .menu-list__item:last-child {
   margin-right: 0px;
+}
+.menu-list__item a:link {
+  color: rgba(255, 255, 255, 0.7);
 }
 .menu-list__item a:visited {
   color: rgba(255, 255, 255, 0.7);

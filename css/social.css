@@ -40,11 +40,11 @@
   color: #86878B;
 }
 .fa-facebook-f:hover {
-  /* color: rgb(22, 137, 236); */
-  background: linear-gradient(27deg, rgba(49,129,238,1) 0%, rgba(0,99,255,1) 100%);
+  color: rgb(22, 137, 236);
+  /* background: linear-gradient(27deg, rgba(49,129,238,1) 0%, rgba(0,99,255,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  color: transparent; */
 }
 .fa-twitter:hover {
   /* color: rgb(35, 189, 236); */
@@ -75,27 +75,20 @@
   color: transparent;
 }
 .fa-stumbleupon:hover {
+  /* color: rgb(243, 116, 70); */
   background: radial-gradient(circle, rgba(238,153,49,1) 0%, rgba(255,111,0,1) 94%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-rss:hover {
+  /* color: rgba(248, 213, 12, 0.87); */
   background: linear-gradient(27deg, rgba(237,238,49,1) 0%, rgba(255,175,0,1) 94%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.fab {
-  transition: 0.2s;
-}
-.fab:hover {
-  transform: scale(1.1);
-}
+.fab, 
 .fas {
-  transition: 0.2s;
+  transition-duration: 0.2s;
 }
-.fas:hover {
-  transform: scale(1.1);
-}
-
