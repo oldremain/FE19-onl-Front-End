@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 .logo {
-  /* margin-right: 20px; */
+  margin-right: 15px;
 }
 .logo-name {
   font-family: 'Raleway', sans-serif;
@@ -40,7 +40,11 @@
   font-weight: 600;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.7);
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  padding: 0 0 3px 3px;
   margin-right: 48px;
+  transition: 0.2s;
 }
 .menu-list__item:last-child {
   margin-right: 0px;
@@ -48,4 +52,7 @@
 .menu-list__item a:visited {
   color: rgba(255, 255, 255, 0.7);
 }
-
+.menu-list__item:hover {
+  border-left-color:#ec7979;
+  border-bottom-color:#ec7979;
+}
