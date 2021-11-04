@@ -1,3 +1,7 @@
+.axure__container--relative {
+  position: relative;
+  z-index: 1;
+}
 .axure {
   background: url('../../img/axure/bg.png');
   background-repeat: no-repeat;
@@ -17,8 +21,6 @@
 }
 .axure__title {
   color: white;
-  position: relative;
-  z-index: 1;
 }
 .axure__title::after {
   content: '';
@@ -26,12 +28,8 @@
   border-top: 2px solid #ffffff;
   display: block;
   margin: 34px auto 34px;
-  position: relative;
-  z-index: 1;
 }
 .axure__description {
   color: rgba(255, 255, 255, 0.55);
   margin-bottom: 57px;
-  position: relative;
-  z-index: 1;
 }

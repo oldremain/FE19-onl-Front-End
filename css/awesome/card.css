@@ -16,10 +16,12 @@
 .awesome-card__img {
   width: 92px;
   height: 92px;
-  border: 1px solid #ec7979;
+  border: 1px solid rgba(231, 36, 36, 0.6);
   border-radius: 50%;
   margin: auto;
   margin-bottom: 73px;
+  font-size: 32px;
+  color: #FF8B38;
 }
 .awesome-card__title {
   font-family: 'Open Sans', sans-serif;
