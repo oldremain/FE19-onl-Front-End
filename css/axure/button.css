@@ -7,8 +7,8 @@
   cursor: pointer;
   padding: 11px 0px;
   margin: auto;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
   animation: pulse 0.8s ease infinite alternate;
 }
 .link-text {
@@ -17,8 +17,8 @@
   font-weight: 600;
   line-height: 20px;
   color: #FFFFFF;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 }
 @keyframes pulse {
   0% {
