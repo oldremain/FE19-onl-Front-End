@@ -44,6 +44,7 @@
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(54, 53, 53, 0.8);
 }
 .form-content div:last-of-type input {

@@ -38,6 +38,7 @@
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(54, 53, 53, 0.8);
 }
 .form-content-left__item input:focus {
@@ -69,6 +70,7 @@
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
   color: rgba(54, 53, 53, 0.8);
   resize: none;
 }
@@ -94,3 +96,4 @@
   cursor: pointer;
   border-radius: 3px;
 }
+

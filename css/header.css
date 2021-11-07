@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   margin-right: 15px;
@@ -62,7 +63,6 @@
   border-left-color:#ec7979;
   border-bottom-color:#ec7979;
   transform: scale(1.1);
-  
 }
 .menu-list__item a:hover {
   color: rgba(255, 255, 255, 0.904);
