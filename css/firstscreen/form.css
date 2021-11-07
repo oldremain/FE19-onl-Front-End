@@ -35,7 +35,7 @@
   font-weight: 400;
   line-height: 19px;
   color: #bdbdbd;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 .form-content__item input {
   width: 100%;
@@ -44,6 +44,7 @@
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
+  color: rgba(54, 53, 53, 0.8);
 }
 .form-content div:last-of-type input {
   margin-bottom: 0px;
