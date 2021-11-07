@@ -13,7 +13,7 @@
   margin: auto;
   text-align: left;
 }
-.form-title {
+.form-content__title {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -22,7 +22,7 @@
   margin-bottom: 59px;
   text-transform: capitalize;
 }
-.form-title span {
+.form-content__title span {
   text-transform: uppercase;
   color: #ec7979;
 }
@@ -39,6 +39,7 @@
 }
 .form-content__item input {
   width: 100%;
+  font-size: 18px;
   margin-bottom: 19px;
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
@@ -49,6 +50,7 @@
 }
 .form-content__item input:focus {
   outline: none;
+  border-bottom-color: rgba(236, 121, 121, 0.7);
 }
 .firstscreen-form-button {
   width: 100%;
