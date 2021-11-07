@@ -72,10 +72,10 @@
 }
 .form-content-right__item textarea:focus {
   border-radius: 8px;
-  outline: 1px solid rgba(236, 121, 121, 0.7);
+  /* outline: 1px solid rgba(236, 121, 121, 0.7); */
   border: 1px solid transparent;
-  /* box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.9); */
-  /* outline: none; */
+  box-shadow: 1px 1px 8px -5px rgba(0, 0, 0, 0.9); 
+  outline: none; 
 }
 .contact-button {
   display: block;
@@ -90,4 +90,5 @@
   background-color: #ec7979;
   color: #fff;
   cursor: pointer;
+  border-radius: 3px;
 }
