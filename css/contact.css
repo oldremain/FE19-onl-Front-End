@@ -95,5 +95,12 @@
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
+  box-shadow: 4px 4px 19px 0px rgba(53, 34, 34, 0.5);
+  transition: 0.2s;
+}
+.contact-button:active {
+  background-color: #fff;
+  color: #ec7979;
+  border-radius: 3px;
 }
 
