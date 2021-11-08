@@ -86,3 +86,6 @@
 .menu-list__item:hover::before {
   transform: scaleX(1);
 }
+.menu-list__item a:hover {
+  color: rgb(216, 197, 172);
+}

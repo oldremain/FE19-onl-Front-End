@@ -113,7 +113,7 @@
   top: 0%;
   right: 0%;
   transform: translateX(-15px);
-  transition: 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .contact-button:hover::after {
   transform: translate3d(-8px,-4px,1px) scale(0.9);
