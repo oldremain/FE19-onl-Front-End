@@ -8,7 +8,13 @@
 }
 
 .form-content {
+<<<<<<< HEAD
   padding: 15px 59px 61px;
+=======
+  width: 252px;
+  padding: 15px 15px 61px;
+  margin: auto;
+>>>>>>> af6953fff87484c178a2def1580bcee43654691f
   text-align: left;
 }
 .form-content__title {
