@@ -68,15 +68,15 @@
 .firstcreen__link {
   width: 135px;
   text-align: center;
+  line-height: 42px;
   border: 1px solid #C4C4C4;
   background-color: transparent;
   cursor: pointer;
-  padding: 11px 0px;
   border-radius: 3px;
-  transition: 0.3s;
+  position: relative;
 }
-.firstcreen__link:hover {
-  transform: scale(1.2);
+.firstcreen__link:hover::before {
+  width: 100%;
 }
 .link-text {
   font-family: 'Open Sans', sans-serif;
@@ -84,4 +84,17 @@
   font-weight: 600;
   line-height: 20px;
   color: #fff;
+}
+
+.firstcreen__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 42px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  transition: 1s ease;
 }

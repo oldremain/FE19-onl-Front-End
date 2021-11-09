@@ -11,6 +11,7 @@
 @import url('../css/footer.css');
 @import url('../css/firstscreen/info.css');
 @import url('../css/firstscreen/form.css');
+@import url('../css/contact.css');
 @import url('../css/fonts.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
@@ -56,6 +57,9 @@ html {
 }
 .axure {
   padding: 58px 0 32px;
+}
+.contact {
+  padding: 80px 0 44px;
 }
 .footer {
   padding: 30px 0 15px;

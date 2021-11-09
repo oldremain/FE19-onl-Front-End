@@ -1,0 +1,121 @@
+.contact-description {
+  margin-bottom: 95px;
+}
+.contatc-form {
+}
+.form-content-contact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.form-content-left {
+  width: 50%;
+  margin-right: 222px;
+}
+.form-content-left__item {
+  margin-bottom: 32px;
+}
+.form-content-left__item:last-child {
+  margin-bottom: 0px;
+}
+.form-content-left__item label {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin-bottom: 14px;
+}
+.form-content-left div:last-child label {
+  margin-bottom: 22px;
+}
+.form-content-left__item input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-bottom-color: #bdbdbd;
+  caret-color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(54, 53, 53, 0.8);
+}
+.form-content-left__item input:focus {
+  outline: none;
+  border-bottom-color: rgba(236, 121, 121, 0.7);
+}
+.form-content-right {
+  width: 50%;
+}
+.form-content-right__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.form-content-right__item label {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin-bottom: 22px;
+}
+.form-content-right__item textarea {
+  display: block;
+  flex-grow: 1;
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-bottom-color: #bdbdbd;
+  caret-color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(54, 53, 53, 0.8);
+  resize: none;
+}
+.form-content-right__item textarea:focus {
+  border-radius: 8px;
+  /* outline: 1px solid rgba(236, 121, 121, 0.7); */
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 8px -5px rgba(0, 0, 0, 0.9); 
+  outline: none; 
+}
+.contact-button {
+  display: block;
+  margin: auto;
+  border: none;
+  width: 166px;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ec7979;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 4px 4px 19px 0px rgba(53, 34, 34, 0.5);
+}
+
+/* Hover Effect Button */
+
+.contact-button {
+  position: relative;
+}
+.contact-button::after {
+  content: '\f1d8';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+  font-size: 12px;
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  right: 0%;
+  transform: translateX(-15px);
+  transition: all 0.4s ease-in-out;
+}
+.contact-button:hover::after {
+  transform: translate3d(-8px,-4px,1px) scale(0.9);
+  z-index: 1;
+}

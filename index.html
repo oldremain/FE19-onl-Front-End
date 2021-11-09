@@ -46,7 +46,7 @@
           </div>
           <form action="#" method="post" name="trial" class="firstscreen-form">
             <div class="form-content">
-              <h4 class="form-title">
+              <h4 class="form-content__title">
                 Try your <span>free</span> trial today
               </h4>
               <div class="form-content__item">
@@ -58,8 +58,8 @@
                 <input type="email" id="userEmail" name="userEmail" required autocomplete="off">
               </div>
               <div class="form-content__item">
-                <label for="pass">Password</label>
-                <input type="password" id="pass" name="password" required>
+                <label for="userPass">Password</label>
+                <input type="password" id="userPass" name="password" required>
               </div>
             </div>
             <button type="submit" class="firstscreen-form-button">Get started</button>
@@ -280,6 +280,43 @@
           <div class="axure__link">
             <a href="#" class="link-text ">Download</a>
           </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="title">
+            Contact us
+          </h2>
+          <div class="description contact-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <form action="#" method="post" name="contact" class="contatc-form">
+            <div class="form-content-contact">
+              <div class="form-content-left">
+                <div class="form-content-left__item">
+                  <label for="contactName">Name</label>
+                  <input type="text" id="contactName" name="userName" required autocomplete="off">
+                </div>
+                <div class="form-content-left__item">
+                  <label for="contactEmail">Email</label>
+                  <input type="text" id="contactEmail" name="userEmail" required autocomplete="off">
+                </div>
+                <div class="form-content-left__item">
+                  <label for="contactPass">Password</label>
+                  <input type="text" id="contactPass" name="userPass" required autocomplete="off">
+                </div>
+              </div>
+              <div class="form-content-right">
+                <div class="form-content-right__item">
+                  <label for="msg">Message</label>
+                  <textarea name="message" id="msg"></textarea>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="contact-button">Send message
+            </button>
+          </form>
         </div>
       </section>
 
