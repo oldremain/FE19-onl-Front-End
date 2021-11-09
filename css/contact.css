@@ -25,11 +25,11 @@
   font-weight: 400;
   line-height: 19px;
   color: #bdbdbd;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
-.form-content-left div:last-child label {
+/* .form-content-left div:last-child label {
   margin-bottom: 22px;
-}
+} */
 .form-content-left__item input {
   display: block;
   width: 100%;
@@ -39,6 +39,10 @@
   caret-color: #bdbdbd;
   font-family: 'Open Sans', sans-serif;
   color: rgba(54, 53, 53, 0.8);
+  padding-top: 14px;
+}
+.form-content-left div:last-child input {
+  padding-top: 22px;
 }
 .form-content-left__item input:focus {
   outline: none;
