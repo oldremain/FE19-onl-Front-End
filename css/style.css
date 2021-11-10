@@ -29,6 +29,10 @@ html {
 .header {
   padding: 20px 0;
   background-color: #000000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 .firstscreen {
   padding: 110px 0 101px;
@@ -37,6 +41,7 @@ html {
   background-position: center;
   background-size: cover;
   position: relative;
+  min-height: 100vh;
 }
 .social-media {
   padding: 14px 0 17px;
