@@ -288,7 +288,19 @@ html {
   .customer-card,
   .pricing-card {
     width: 90%;
-    margin: 30px 0px;
+    margin-bottom: 30px;
+  }
+  .awesome-card:last-child {
+    margin-top: 0px;
+  }
+  .awesome-card__img {
+    margin-bottom: 45px;
+  }
+  .pricing-card:last-child {
+    margin-top: 0px;
+  }
+  .description {
+    margin-bottom: 40px;
   }
   .social-list-footer {
     justify-content: space-between;
@@ -296,5 +308,8 @@ html {
   }
   .social-list-footer__item {
     margin-right: 15px;
+  }
+  .form-content__title {
+    text-align: center;
   }
 }
