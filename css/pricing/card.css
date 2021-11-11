@@ -15,7 +15,7 @@
 }
 .pricing-card__item-tariff {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   background-color: #333333;
@@ -25,7 +25,7 @@
 }
 .pricing-card__item-price {
   font-family: 'Raleway', sans-serif;
-  font-size: 35px;
+  font-size: 2.19rem;
   font-weight: 700;
   text-align: center;
   background-color: #333333;
@@ -51,4 +51,7 @@
   color: #86878B;
   padding: 10px 0 11px;
   margin: 4px 0;
+}
+.pricing-card__item:last-child {
+  margin-bottom: 0px;
 }

@@ -10,7 +10,7 @@
   margin-bottom: 70px;
 }
 .form-content-left {
-  width: 40%;
+  width: 45%;
 }
 .form-content-left__item {
   margin-bottom: 32px;
@@ -25,15 +25,11 @@
   font-weight: 400;
   line-height: 19px;
   color: #bdbdbd;
-  /* margin-bottom: 14px; */
 }
-/* .form-content-left div:last-child label {
-  margin-bottom: 22px;
-} */
 .form-content-left__item input {
   display: block;
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
@@ -49,7 +45,7 @@
   border-bottom-color: rgba(236, 121, 121, 0.7);
 }
 .form-content-right {
-  width: 40%;
+  width: 45%;
 }
 .form-content-right__item {
   display: flex;
@@ -69,7 +65,7 @@
 .form-content-right__item textarea {
   display: block;
   flex-grow: 1;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
@@ -80,10 +76,11 @@
 }
 .form-content-right__item textarea:focus {
   border-radius: 8px;
-  /* outline: 1px solid rgba(236, 121, 121, 0.7); */
-  border: 1px solid transparent;
+  outline: 1px solid rgba(236, 121, 121, 0.3);
+  /* border: 1px solid transparent;
   box-shadow: 1px 1px 8px -5px rgba(0, 0, 0, 0.9); 
-  outline: none; 
+  outline: none;  */
+  border-color: transparent;  
 }
 .contact-button {
   display: block;
@@ -102,7 +99,7 @@
   box-shadow: 4px 4px 19px 0px rgba(53, 34, 34, 0.5);
 }
 
-/* Hover Effect Button */
+/* -----Hover Effect Button----- */
 
 .contact-button {
   position: relative;

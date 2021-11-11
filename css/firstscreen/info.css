@@ -5,7 +5,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .firstscreen-container {
   position: relative;
@@ -15,19 +15,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .firstscreen-info {
   max-width: 545px;
-  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 15px;
 }
 .firstscreen-logo {
   margin-bottom: 45px;
 }
 .firstscreen-logo__name {
   font-family: 'Roboto', sans-serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 4.38rem;
   color: #fff;
   text-transform: uppercase;
 }
@@ -35,18 +40,18 @@
   content: 'IT';
   display: inline;
   font-family: 'Roboto', sans-serif;
-  font-size: 59px;
+  font-size: 3.69rem;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 4.38rem;
   color: #ec7979;
   margin-left: 1px;
 }
 .firstscreen-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   color: #fff;
-  line-height: 42px;
+  line-height: 2.63rem;
   text-transform: uppercase;
 }
 .firstscreen-title::after {
@@ -57,19 +62,19 @@
   margin: 32px 0 39px;
 }
 .firstscreen-description {
-  width: 282px;
+  max-width: 282px;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
-  line-height: 19px;
+  line-height: 1.19rem;
   margin-bottom: 40px;
 }
 .firstcreen__link {
-  width: 135px;
+  display: inline-block;
   text-align: center;
-  line-height: 42px;
-  border: 1px solid #C4C4C4;
+  line-height: 2.63rem;
+  border: 1px solid #c4c4c4;
   background-color: transparent;
   cursor: pointer;
   border-radius: 3px;
@@ -80,10 +85,11 @@
 }
 .link-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #fff;
+  padding: 11px 27px;
 }
 
 .firstcreen__link::before {
@@ -94,7 +100,7 @@
   display: block;
   width: 0%;
   height: 100%;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 3px;
   transition: 0.9s ease;
 }

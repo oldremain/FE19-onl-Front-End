@@ -13,6 +13,7 @@
 @import url('../css/firstscreen/form.css');
 @import url('../css/contact.css');
 @import url('../css/fonts.css');
+@import url('../css/burger.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 html {
@@ -45,14 +46,14 @@ html {
 }
 .social-media {
   padding: 14px 0 17px;
-  background-color: #F8EFEF;
+  background-color: #f8efef;
 }
 .awesome {
   padding: 54px 0 58px;
 }
 .pricing {
   padding: 80px 0 59px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .customer {
   padding: 80px 0 120px;
@@ -71,4 +72,229 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+}
+
+/* -----Media requests-----*/
+@media (min-width: 1300px) {
+  .firstscreen {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+  .container {
+    max-width: 970px;
+  }
+  .firstscreen {
+    padding: 55px 0;
+    min-height: calc(100vh - 70px);
+  }
+  .firstscreen-wrap {
+    flex-wrap: nowrap;
+  }
+  .firstscreen-form {
+    width: 350px;
+  }
+  .social-wrap {
+    flex-wrap: nowrap;
+  }
+  .social-list {
+    flex-wrap: nowrap;
+  }
+  .social-list__item {
+    font-size: 39px;
+  }
+  .awesome-row {
+    flex-wrap: nowrap;
+  }
+  .pracing-row {
+    flex-wrap: nowrap;
+  }
+  .customers-row {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+  .container {
+    max-width: 750px;
+  }
+  .firstscreen-form {
+    flex-shrink: 0;
+    align-self: flex-end;
+    width: 330px;
+  }
+  .social-wrap {
+    flex-wrap: wrap;
+  }
+  .title-wrap {
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .social-title {
+    margin-bottom: 5px;
+  }
+  .social-list {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .social-list__item {
+    margin-right: 70px;
+    font-size: 35px;
+  }
+  .awesome-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .awesome-card {
+    width: 33.333%;
+  }
+  .awesome-card:last-child {
+    margin: 25px auto 0;
+  }
+  .pracing-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .pricing-card {
+    width: 41%;
+  }
+  .pricing-card:last-child {
+    margin: 25px auto 0;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+  .menu-header {
+    display: none;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .firstscreen-wrap {
+    flex-wrap: wrap;
+  }
+  .firstscreen-info {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .firstscreen-title::after {
+    margin: 32px auto 39px;
+  }
+  .firstscreen-form {
+    margin: 20px auto 0px;
+  }
+  .form-content {
+    padding: 20px 47px 50px;
+  }
+  .social-wrap {
+    flex-wrap: wrap;
+  }
+  .social-list {
+    flex-wrap: wrap;
+  }
+  .social-list__item {
+    margin: 0 20px;
+  }
+  .awesome-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .awesome-card {
+    width: 330px;
+    margin-bottom: 30px;
+  }
+  .awesome-card:last-child {
+    margin-bottom: 0px;
+  } 
+  .pracing-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-card {
+    width: 320px;
+    margin-bottom: 30px;
+  }
+  .pricing-card:last-child {
+    margin-bottom: 0px;
+  }
+  .customer {
+    padding: 60px 0px 85px;
+  }
+  .customers-row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-card {
+    margin-bottom: 35px;
+  }
+  .customer-card:last-child {
+    margin-bottom: 0px;
+  }
+  .burger--none {
+    display: block;
+  }
+  .form-content-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-content-left {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .form-content-right {
+    width: 80%;
+  }
+}
+
+@media (max-width: 468px) {
+  html {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .customers-row {
+    flex-wrap: wrap;
+  }
+  .social-list__item {
+    margin-right: 5px;
+    font-size: 24px;
+  }
+  .firstscreen-form {
+    width: 90%;
+  }
+  .form-content__title {
+    margin-bottom: 25px;
+  }
+  .awesome-card,
+  .customer-card,
+  .pricing-card {
+    width: 90%;
+    margin: 30px 0px;
+  }
+  .social-list-footer {
+    justify-content: space-between;
+    
+  }
+  .social-list-footer__item {
+    margin-right: 15px;
+  }
 }

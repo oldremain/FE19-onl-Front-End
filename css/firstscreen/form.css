@@ -3,19 +3,18 @@
   border-radius: 10px;
   overflow: hidden;
   align-self: flex-start;
-  margin-left: 15px;
+  margin: 0 15px;
   background-color: #fff;
 }
-
 .form-content {
-  padding: 15px 59px 61px;
+  padding: 15px 57px 61px;
   text-align: left;
 }
 .form-content__title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   color: #333333;
   margin-bottom: 50px;
   text-transform: capitalize;
@@ -25,6 +24,10 @@
   color: #ec7979;
 }
 .form-content__item {
+  margin-bottom: 19px;
+}
+.form-content__item:last-child {
+  margin-bottom: 0px;
 }
 .form-content__item label {
   display: block;
@@ -38,15 +41,11 @@
   width: 100%;
   font-size: 16px;
   padding-top: 10px;
-  margin-bottom: 19px;
   border: 1px solid transparent;
   border-bottom-color: #bdbdbd;
   caret-color: #bdbdbd;
   font-family: 'Open Sans', sans-serif;
   color: rgba(54, 53, 53, 0.8);
-}
-.form-content div:last-of-type input {
-  margin-bottom: 0px;
 }
 .form-content__item input:focus {
   outline: none;
@@ -56,9 +55,9 @@
   width: 100%;
   border: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 1.25rem;
   background-color: #ec7979;
   color: #fff;
   text-transform: capitalize;
@@ -66,7 +65,7 @@
   padding: 17px 0;
 }
 
- /* EFFECT FOT BUTTON*/
+ /* ------Effect for button------*/
 .firstscreen-form-button {
   position: relative;
   z-index: 1;

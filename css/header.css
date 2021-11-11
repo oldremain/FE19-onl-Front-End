@@ -9,9 +9,9 @@
 }
 .logo-name {
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 2.19rem;
   color: #fff;
   text-transform: uppercase;
 }
@@ -19,9 +19,9 @@
   content: 'IT';
   display: inline;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 2.19rem;
   color: #ec7979;
   margin: 0 15px 0 1px;
 }
@@ -41,7 +41,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: rgba(255, 255, 255, 0.7);
   /* border-left: 3px solid transparent;
   border-bottom: 3px solid transparent;
@@ -68,7 +68,8 @@
   color: rgba(255, 255, 255, 0.904);
 }
  */
-/* LINK EFFECT */
+
+/* -----Link effect----- */
 .menu-list__item {
   position: relative;
 }

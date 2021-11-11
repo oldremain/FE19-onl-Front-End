@@ -2,16 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .title-wrap {
   width: 365px;
-  margin-right: 15px;
+  margin: 0 15px;
 }
 .social-title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   color: #333333;
   text-transform: capitalize;
   margin-bottom: 14px;
@@ -28,9 +29,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 0 15px;
 }
 .social-list__item {
-  font-size: 42px;
+  font-size: 2.625rem;
   margin-right: 70px;
 }
 .social-list__item:last-child {
@@ -43,49 +45,42 @@
   color: #86878B;
 }
 .fa-facebook-f:hover {
-  /* /* color: rgb(22, 137, 236); */
   background: linear-gradient(27deg, rgba(49,129,238,1) 0%, rgba(0,99,255,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 } 
 .fa-twitter:hover {
-  /* color: rgb(35, 189, 236); */
   background: linear-gradient(27deg, rgba(49,238,233,1) 0%, rgba(0,176,255,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-google-plus-g:hover {
-  /* color: rgba(231, 21, 63, 0.801); */
   background: linear-gradient(4deg, rgba(238,49,49,1) 0%, rgba(255,51,0,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-pinterest:hover {
-  /* color: rgb(235, 15, 59); */
   background: linear-gradient(4deg, rgba(238,49,72,1) 0%, rgba(255,55,0,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-instagram:hover {
-  /* color: rgba(255, 135, 80, 0.952); */
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-stumbleupon:hover {
-  /* color: rgb(243, 116, 70); */
   background: radial-gradient(circle, rgba(238,153,49,1) 0%, rgba(255,111,0,1) 94%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .fa-rss:hover {
-  /* color: rgba(248, 213, 12, 0.87); */
   background: linear-gradient(27deg, rgba(237,238,49,1) 0%, rgba(255,175,0,1) 94%);
   background-clip: text;
   -webkit-background-clip: text;

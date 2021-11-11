@@ -1,0 +1,16 @@
+.burger--none {
+  display: none;
+}
+.burger {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ada9a9;
+  padding: 3px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.burger__line {
+  border-top: 1px solid #ada9a9;
+}

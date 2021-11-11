@@ -1,0 +1,36 @@
+/* @media (max-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  section {
+    padding: 80px 0;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 468px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 90%;
+  }
+} */
