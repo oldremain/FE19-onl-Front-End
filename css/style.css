@@ -111,6 +111,9 @@ html {
   .social-list__item {
     font-size: 39px;
   }
+  .tabs-link__item {
+    line-height: 100px;
+  }
   .awesome-row {
     flex-wrap: nowrap;
   }
@@ -163,6 +166,25 @@ html {
   .awesome-card:last-child {
     margin: 25px auto 0;
   }
+  .tabs {
+    padding-bottom: 60px;
+  }
+  .tabs-wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .tabs-link {
+    order: 2;
+  }
+  .tabs-content {
+    order: 2;
+    flex-basis: 60%;
+  }
+  .tabs-image {
+    flex-basis: 100%;
+    order: 1;
+    margin-bottom: 10px;
+  }
   .pracing-row {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -210,6 +232,38 @@ html {
   }
   .social-list__item {
     margin: 0 20px;
+  }
+  .tabs {
+    padding: 60px 0 30px;
+  }
+  .tabs-image {
+    display: none;
+  }
+  .tabs-link {
+    flex-direction: row;
+    flex-basis: 100%;
+  }
+  .tabs-link__item {
+    line-height: 50px;
+    width: 30%;
+  }
+  .tabs-link__item,
+  .tabs-link__item:last-child {
+    margin-bottom: 20px;
+  }
+  .tabs-content {
+    flex-basis: 100%;
+    align-items: center;
+  }
+  .tabs-content p {
+    text-align: center;
+  }
+  .tabs-content__title,
+  .tabs-content__text {
+    margin-bottom: 25px;
+  }
+  .tabs-content__title {
+    text-align: center;
   }
   .awesome-row {
     flex-direction: column;
@@ -274,6 +328,9 @@ html {
   }
   .container {
     max-width: 90%;
+  }
+  .tabs {
+    padding: 50px 0 15px;
   }
   .customers-row {
     flex-wrap: wrap;

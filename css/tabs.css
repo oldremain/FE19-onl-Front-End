@@ -39,9 +39,9 @@
 }
 .tabs-content__title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.69rem;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 58px;
