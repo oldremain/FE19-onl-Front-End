@@ -14,6 +14,7 @@
 @import url('../css/contact.css');
 @import url('../css/fonts.css');
 @import url('../css/burger.css');
+@import url('../css/tabs.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 html {
@@ -47,6 +48,9 @@ html {
 .social-media {
   padding: 14px 0 17px;
   background-color: #f8efef;
+}
+.tabs {
+  padding: 100px 0 125px;
 }
 .awesome {
   padding: 54px 0 58px;
